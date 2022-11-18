@@ -1,0 +1,16 @@
+programa
+variavel a
+variavel b
+variavel x
+mostre "informe um numero para a tabuada: "
+obter a
+para x = 1 ate 11
+    b <- x * a
+    mostre x
+    mostre " X "
+    mostre a
+    mostre " = "
+    mostre b
+    pular
+fimpara
+fimprograma

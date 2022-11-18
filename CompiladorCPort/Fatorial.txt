@@ -1,0 +1,17 @@
+programa
+    variavel a
+    variavel b
+    variavel c
+    variavel x
+    mostre "informe o numero para calcular o fatorial: "
+    obter a
+    c <- 1
+    para x = 1 ate a
+        b <- x + 1
+        c <- b * c
+    fimpara
+    mostre "fatorial de "
+    mostre a
+    mostre " eh "
+    mostre c
+fimprograma

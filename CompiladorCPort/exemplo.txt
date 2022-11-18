@@ -1,0 +1,25 @@
+programa
+  variavel a
+  variavel b
+  variavel c
+  variavel x
+  obter a
+  obter b
+  c <- a + b
+  compare a > b entao
+    mostre a
+  senao
+    mostre b
+  fimcompare
+  pular
+  mostre "Soma de a e b"
+  pular
+  mostre 'Soma de a e b'
+  pular
+  mostre c
+  pular
+  para x = 1 ate 10
+    mostre x
+    pular
+  fimpara
+fimprograma
