@@ -122,7 +122,7 @@ public class GeradorByteCode {
 
 		String[] token = linha.split(" ");
 
-		String novaLinha = "for(" + token[1] + "=" + token[3] + ";" + token[1] + "<" +
+		String novaLinha = "for(" + token[1] + "=" + token[3] + ";" + token[1] + "<=" +
 						   token[5] + ";" + token[1] + "++" + "){";
 
 		byteCode.add(novaLinha);

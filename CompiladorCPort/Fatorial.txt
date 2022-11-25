@@ -2,11 +2,13 @@ programa
     variavel a
     variavel b
     variavel c
+    variavel d
     variavel x
     mostre "informe o numero para calcular o fatorial: "
     obter a
     c <- 1
-    para x = 1 ate a
+    d <- a - 1
+    para x = 1 ate d
         b <- x + 1
         c <- b * c
     fimpara
